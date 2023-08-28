@@ -1,22 +1,28 @@
-import Logo from '../assets/image/logo.jpg'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
 import "./style.css"
-const Navbar = () => {
-    return (  
-      <div className='banner'> 
-        <div className='header'>
-          <ul className='nav'>
-            <li><a href='!#'>HOME</a></li>
-            <li><a href='!#'>SERVICES</a></li>
-            <li><a href='!#'>PROJECT</a></li>
-            <li><a href='!#'>ABOUT</a></li>
-            <li><a href='!#'>CONTACT</a></li>
-          </ul>
-        </div>
-        <div className='image'>
-          <image src={Logo} alt="logo"/>
-        </div>
-      </div>
-    )
+import logo from "../assets/image/logo.jpg"
+function NavScrollExample() {
+  return (
+
+      <Container fluid className='header'>
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            >
+            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="#action2">Services</Nav.Link>
+            <Nav.Link href="#action3">Project</Nav.Link>
+            <Nav.Link href="#action4">About</Nav.Link>
+            <Nav.Link href="#action5">Contact</Nav.Link>
+            
+            
+          </Nav>
+          
+      </Container>
+
+
+   
+  );
 }
- 
-export default Navbar;
+
+export default NavScrollExample;

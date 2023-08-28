@@ -8,10 +8,11 @@ html {
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .banner {
     height: 100vh;
     width: 100vw;
-    background-image: url(https://essenceofgentleman.com/wp-content/uploads/2021/05/50s-slideshow-min.jpg)
+    background-image: url(https://essenceofgentleman.com/wp-content/uploads/2021/05/50s-slideshow-min.jpg);
 }
 
 .header {
@@ -19,34 +20,62 @@ html {
     height: 70px;
     position: fixed;
     display: flex;
-    justify-content: flex-end;
-    padding: 0 100px;
     background-color: rgba(0,0,0,.3);
-    z-index: 10;
+    
 }
 
-.nav {
+.me-auto {
     height: 100%;
+    position: relative;
     display: flex;
     width: 40%;
     justify-content: space-evenly;
     align-items: center;
     font-weight: 600;
-}
-.nav > li {
-    display: inline-block;
-}
-.nav li {
-    position: relative;
-}
-.nav > li > a{ 
-    color: #fff; 
-    text-transform: uppercase; 
+    
 }
 
-.nav li a{ 
-    text-decoration: none; 
-    line-height: 46px; 
-    padding: 0 24px; 
-    display: block;
+
+.me-auto a{ 
+    
+    color: aliceblue;
+    text-transform: uppercase; 
+    float: left;
+    padding: 3px;
 }
+
+.image {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.content-banner {
+    
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}  
+
+.content-banner .hello {
+    font-size: xx-large;
+}
+
+.content-banner .items {
+    font-size: xxx-large;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.content-banner button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid red;
+    background:linear-gradient(to right,red 60%, yellow 70%, blue 90%);
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
