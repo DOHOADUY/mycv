@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Col } from "react-bootstrap";
+import Button from 'react-bootstrap/Button';
+
 import "./style.css"
 const Banner = () => {
   
@@ -50,7 +52,9 @@ const Banner = () => {
             <div className="items">My name is</div>
             <div className="items" style={{color: 'red'}}>Do Hoa Duy</div>
             <div className="items">I'm <span className="wrap" style={{color: "red"}}>{text}</span></div>
-            <button onClick={() => console.log('connect')}>PORTPOLD</button>   
+            {/* <button onClick={() => console.log('connect')}>PORTPOLD</button> */}
+            <Button variant="danger">PORTPOLD</Button>{' '}
+   
         </Col>
        
       </Container>

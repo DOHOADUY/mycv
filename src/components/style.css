@@ -74,8 +74,151 @@ html {
     background-color: transparent;
     color: #fff;
     border: 2px solid red;
-    background:linear-gradient(to right,red 60%, yellow 70%, blue 90%);
+    /* background:linear-gradient(to right,red 60%, yellow 70%, blue 90%); */
     background-size: 200%;
     transition: .5s ease-out;
 }
 
+
+/* Services */
+
+#price-section {
+    display: flex;
+    align-items: center;
+}
+
+#price-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.title-big h3 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.description-title {
+    width: 500px;
+    text-align: center;
+    font-size: small;
+}
+
+
+.price-innerdetail p {
+    font-size: 50px;
+}
+
+.detail-pricing {
+    border-bottom: 1px solid;
+    padding: 30px 0 30px 0;
+}
+
+.detail-pricing .float-left {
+    padding: 0 0 0 40px;
+}
+
+.detail-pricing .float-left i {
+    width: 70%;
+    /* height: 300px; */
+    display: flex;
+    /* margin-top: 40px; */
+
+
+}
+
+.detail-pricing span {
+    display: inline-block;
+    position: relative;
+    font-weight: 400;
+} 
+
+.wrap-price {
+    background: rgba(32, 33, 36, .1);
+    padding: 50px 20px 50px;
+    border-radius: 10px;
+}
+
+.center-wrap {
+    background: #070707;
+    color: #fff;
+}
+
+
+/* Contact */
+
+#contact {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(27,27,27,.932);
+}
+
+.content-contact {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.content-contact .left {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding-left: 150px;
+}
+
+
+.content-contact .left .title {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.content-contact .left .address-items .fa-solid {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.address-items .fa-solid div {
+    margin-left: 20px;
+}
+
+.content-contact .right .content-right {
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 50px;
+    color: #fff;
+}
+.content-contact .right .content-right .title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.content-contact .right .content-right .description {
+    color: #d1d1d1;
+    margin-bottom: 20px;
+}
+.content-contact .right .content-right .input input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #d1d1d1;
+    color: #fff;
+    font-size: 16px;
+}
+form button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
